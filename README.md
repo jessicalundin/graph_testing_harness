@@ -1,6 +1,6 @@
-# IMCI Graph Testing Harness
+# Graph-based Testing Harness for LLMs
 
-This repository contains code accompanying the paper: **"A Graph-Based Test-Harness for LLM Evaluation"** on arXiv (link forthcoming).
+This repository contains code accompanying the paper: **"A Graph-Based Test-Harness for LLM Evaluation"** on [arXiv](https://arxiv.org/abs/2508.20810).
 
 This is a prototype for a graph-based LLM testing harness to achieve 100% coverage of a set of health guidelines -- to our knowledge the first of it's kind.  The questions can be dynamically generated for 3+ trillion combinations of the 400+ questions from this particular graph; however the methodology can be extended to any use case.  As a demonstration, we built a graph from the [WHO IMCI guidelines](https://www.who.int/publications/m/item/integrated-management-of-childhood-illness---chart-booklet-(march-2014)), and generated multiple-choice questions.  These questions can be used for evaluation or post-training (finetuning, alignment).
 
