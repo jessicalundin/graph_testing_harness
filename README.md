@@ -86,29 +86,6 @@ The harness addresses two distinct contamination risks that static benchmarks ca
 - **Surface-form contamination**: By generating questions at evaluation time with randomized ages, distractor sampling, and template selection drawn from a large combinatorial space, the probability of repeated surface forms is reduced relative to static benchmarks.
 - **Relationship-level contamination**: Because evaluation queries are generated dynamically from a structured representation of the guidelines, the same framework can be applied to updated or modified guidelines that postdate model training — enabling **temporal and versioned evaluation** to probe whether models have genuinely acquired generalizable clinical reasoning or are relying on memorized relationships.
 
-## Inference Results
-
-### Model Performance
-
-Baseline evaluation across five models using the generated MCQA dataset:
-
-| Model | Overall | C→S | S→C | C→T | C→Sv | C→F |
-|-------|---------|-----|-----|-----|------|-----|
-| Claude Sonnet 4.6 | 68.0±13.6 | 73.9±8.4 | 80.3±5.1 | 69.7±8.1 | 56.0±15.7 | 60.0±15.3 |
-| GPT-5.2 | 66.3±15.2 | 77.3±12.5 | 79.4±8.1 | 69.6±11.1 | 53.9±10.6 | 51.4±9.9 |
-| o4-mini | 67.5±14.0 | 75.1±5.7 | 81.6±4.1 | 65.3±7.5 | 58.0±11.8 | 57.5±19.9 |
-| GPT-OSS-20B | 56.9±15.5 | 68.9±5.5 | 71.2±3.6 | 49.7±2.2 | 51.8±14.1 | 42.9±21.0 |
-| MedGemma-4B | 49.8±10.4 | 50.0±2.7 | 64.4±1.6 | 45.4±4.9 | 47.6±10.1 | 41.4±11.8 |
-
-*Values shown as accuracy ± standard deviation (%)*
-
-### Key Findings
-
-1. The three frontier closed-source models (Claude Sonnet 4.6, o4-mini, GPT-5.2) achieve similar overall accuracy (~66–68%), outperforming GPT-OSS-20B (~57%) and MedGemma-4B (~50%).
-2. Symptom → Condition questions show the highest performance across all models (64–82%), indicating that models better recognize symptoms than prescribe treatments or protocols.
-3. Within-model performance varies substantially across question types, underscoring that aggregate accuracy obscures meaningful capability differences.
-4. MedGemma-4B underperforms larger models across all question types, suggesting model scale and general reasoning capacity may dominate performance in this setting.
-
 ### How to Run Inference
 
 ```bash
@@ -131,28 +108,4 @@ This script:
 3. Creates age-appropriate distractors for realistic difficulty
 4. Saves questions to `results/IMCI_qamc.json`
 
-## Extensibility
 
-The graph schema — conditions, symptoms, treatments, follow-ups, severities, and their directed relationships — is not specific to IMCI. Any clinical guideline with structured decision logic is a candidate. WHO produces guidelines across malaria, tuberculosis, HIV, and maternal health that share the same flowchart structure as IMCI. Beyond healthcare, structured regulatory guidelines, legal compliance frameworks, and technical standards with explicit relationship structures could support the same approach.
-
-The primary scaling bottleneck is graph construction itself. Future work could reduce this bottleneck through semi-automated graph construction with expert review, particularly for guidelines with consistent structure such as WHO protocols.
-
-## Limitations
-
-- Question quality depends entirely on graph accuracy: any errors in manual annotation propagate to all generated questions.
-- The graph was curated by a single clinical expert, which precludes inter-rater reliability assessment. Independent validation by additional clinicians remains important future work.
-- Only MCQA format is evaluated, which cannot capture the complexity of real clinical reasoning involving differential diagnosis and incomplete information.
-- The text-only approach excludes visual diagnostic elements present in the original IMCI handbook.
-- Evaluation on IMCI guidelines may not generalize to other medical domains.
-
-## Ethical Considerations
-
-This evaluation harness is intended for research purposes only and is not suitable for clinical decision-making. Models performing well on MCQA may still fail in actual clinical scenarios requiring differential diagnosis and incomplete information. Our focus on WHO IMCI guidelines reflects the substantial need for AI systems that support scarce healthcare workers in low- and middle-income countries (LMICs), where guidelines are often country-specific and custom evaluation is necessary for accurate measurement of model performance.
-
-## Citation
-
-If you use this work, please cite the accompanying paper (forthcoming ACL proceedings).
-
-## License
-
-This repository is released under an open-source license to enable reproducibility and extension to other clinical guidelines. The generated questions and schemas are based on WHO IMCI guidelines and should be used for educational and research purposes only.
