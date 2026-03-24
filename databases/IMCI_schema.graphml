@@ -1,0 +1,1730 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="age_range" attr.type="double" />
+  <key id="d1" for="node" attr.name="age_range" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Very Severe Disease">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="not feeding well">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="convulsions">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="fast breathing (60 breaths per minute or more)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="severe chest indrawing">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="fever (37.5ï¿½C above)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="low body temperature (less than 35.5ï¿½C)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="movement only when stimulated or no movement at all">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give first dose of intramuscular antibiotics">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="treat to prevent low blood sugar">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="refer URGENTLY to hospital">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise mother how to keep the infant warm on the way to the hospital">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="severe">
+      <data key="d0">Severity</data>
+    </node>
+    <node id="Local Bacterial Infection">
+      <data key="d0">Condition</data>
+      <data key="d1">0-2</data>
+    </node>
+    <node id="umbilicus red">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="draining pus">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="skin pustules">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give an appropriate oral antibiotic">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="teach the mother to treat local infections at home">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise mother to give home care for the young infant">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 2 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="moderate">
+      <data key="d0">Severity</data>
+    </node>
+    <node id="Severe Disease or Local Infection Unlikely">
+      <data key="d0">Condition</data>
+      <data key="d1">0-2</data>
+    </node>
+    <node id="none of the signs of very severe disease or local bacterial infection">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="advise mother to give home care">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="mild">
+      <data key="d0">Severity</data>
+    </node>
+    <node id="Severe Jaundice">
+      <data key="d0">Condition</data>
+      <data key="d1">0-2</data>
+    </node>
+    <node id="any jaundice if age less than 24 hours">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="yellow palms and soles">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Treat to prevent low blood sugar">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Jaundice">
+      <data key="d0">Condition</data>
+      <data key="d1">0-2</data>
+    </node>
+    <node id="jaundice appearing after 24 hours of age">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="palms and soles not yellow">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="advise the mother to give home care for the young infant">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise mother to return immediately if palms and soles appear yellow">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if the young infant is older than 14 days refer to hospital for assessment">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 1 day">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Severe Dehydration">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="sunken eyes">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="skin pinch goes back very slowly">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="diarrhea">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="If the infant has no other severe classification give fluid for severe dehydration (Plan C)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if infant also has another severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeeding">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Some Dehydration">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="restless and irritable">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="skin pinch goes back slowly">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give fluid and breast milk for some dehydration (Plan B)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise mother when to return immediately">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 2 days if not improving">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Confirmed HIV Infection">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="positive virological test">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give cotrimoxazole prophylaxis from age 4-6 weeks">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give HIV ART and care">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise the mother on home care">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up regularly as per national guidelines">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="HIV Exposed">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="Mother HIV-positive">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="start or continue PMTCT ARV prophylaxis as per national recommendations">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="do virological test at age 4-6 weeks or repeat 6 weeks after the child stops breastfeeding">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="HIV Infection Unlikely">
+      <data key="d0">Condition</data>
+      <data key="d1">0-2</data>
+    </node>
+    <node id="Negative HIV test in mother or young infant">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="treat, counsel and follow-up existing infections">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Feeding Problem">
+      <data key="d0">Condition</data>
+      <data key="d1">0-2</data>
+    </node>
+    <node id="not well attached to breast">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="not suckling effectively">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="less than 8 breastfeeds in 24 hours">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="low weight for age">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="thrush (ulcers or white patches in mouth)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="not well attached or not suckling effectively">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="teach correct positioning and attachment">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="teach the mother to express breast milk and feed by a cup">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise to increase frequency of feeding">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise the mother to breastfeed as often and as long as the infant wants day and night">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="counsel the mother about breastfeeding more">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="reducing other foods or drinks">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="refer for breastfeeding counselling and possible relactation">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise about correctly preparing breast-milk substitutes and using a cup">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise the mother how to feed and keep the low weight infant warm at home">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if thrush teach the mother to treat thrush at home">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up any feeding problem or thrush in 2 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="follow-up low weight for age in 14 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="any severe danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give diazepam if convulsing now">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="quickly complete the assessment">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give any pre-referal treatment immediately">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="keep the child warm">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Severe Pneumonia or Very Severe Disease">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="stridor in calm child">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give first dose of an appropriate antibiotic">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Pneumonia">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="chest indrawing">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="fast breathing (50 breaths per minute or more ages 2-12m and 40 breaths per minute or more ages 12 months to 5 years)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give oral Amoxicillin for 5 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if wheezing (or disappeared after rapidly acting bronchodilator) give an inhaled bronchodilator for 5 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if chest indrawing in HIV exposed/infected child, give first dose of amoxicillin and refer">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="soothe the throat and relieve the cough with a safe remedy">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="follow-up in 3 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="if coughing for more than 14 days or recurrent wheeze refer for possible TB or asthma assessment">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Cough or Cold">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="cough">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="no signs of pneumonia or very severe disease">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="follow-up in 5 days if not improving">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="lethargic or unconscious">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="not able to drink or drinking poorly">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="if child has no other severe classification give fluid for severe dehydration (Plan C)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if child has other severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeeding">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if child is 2 years or older and there is cholera in your area give antibiotic for cholera">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="drinks eagerly and thirsty">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give fluid, zinc supplements and food for some dehydration (Plan B)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if child also has severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeedingy">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow up in 5 days if not improving">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="advise mother when to return immediatel">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Severe Persistent Diarrhea">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="diarrhea for 14 days or more">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="dehydration present">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="treat dehydration before referral unless the child has another severe classification">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="refer to hospital">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Persistent Diarrhea">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="no dehydration">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="advise the mother on feeding a child who has persistent diarrhea">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give multivitamins and minerals (including zinc) for 14 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 5 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Dysentery">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="blood in the stool">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give ciprofloxacin for 3 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Mastoiditis">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="tender swelling behind the ear">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="ear pain">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give first dose of paracetamol for pain">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Acute Ear Infection">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="pus is seen draining from the ear">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="ear discharge is reported for less than 14 days">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give an antibiotic for 5 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give paracetamol for pain">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="dry the ear by wicking">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Chronic Ear Infection">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="ear discharge is reported for 14 days or more">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="treat with topical quinolone eardrops for 14 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Very Severe Febrile Disease with Malaria Risk">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="any general danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="stiff neck">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="fever">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give first dose of artesunate or quinine for severe malaria">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give one dose of paracetamol in clinic for high fever (38.5 C or above)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Malaria">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="Malaria test positive">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give recommended first line oral antimalarial">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give appropriate antibiotic treatment for an identified bacterial cause of fever">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 3 days if fever persists">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="if fever is present every day for more than 7 days refer for assessment">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Fever: No Malaria">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="Malaria test negative">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Very Severe Febrile Disease with no Malaria Risk">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="treat child to prevent low blood sugar">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Fever">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="no general danger signs (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="no stiff neck">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Give one dose of paracetamol in clinic for high fever (38.5 C or above)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give appropriate antibiotic treatment for any identified bacterial cause of fever">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 2 days if fever persists">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Severe Complicated Measles">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="clouding of cornea">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="deep or extensive mouth ulcers">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="generalized rash">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="runny nose">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="red eyes">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give Vitamin A treatment">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="apply tetracycline eye ointment">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Measles with Eye or Mouth Complications">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="pus draining from the eye">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="mouth ulcers">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="if mouth ulcers treat with gentian violet">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Measles">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="Cholera">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="not able to drink">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="drinking poorly">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Cholera in area">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give fluid for severe dehydration (Plan C)">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="refer URGENTLY to hospital with mother giving frequent sips of ORS on the way">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="advise the mother to continue breastfeeding">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give antibiotic for Cholera">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Complicated Nutritional Status and Severe Acute Malnutrition">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="oedema of both feet">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="WFH/L less than -3 z-scores">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="MUAC less than 115 mm">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="medical complication present, not able to finish RUTF or breastfeeding problem">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give first dose appropriate antibiotic">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Uncomplicated Severe Acute Malnutrition">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="able to finish RUTF">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give oral antibiotics for 5 days">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give ready-to-use therapeutic food for a child aged 6 months or more">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="counsel the mother on how to feed the child">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="assess for possible TB infection">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 7 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="Moderate Acute Malnutrition">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="WFH/L between -3 and -2 z-scores">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="MUAC 115-125 mm">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="assess the child's feeding and counsel the mother on the feeding recommendations">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="if feeding problem follow-up in 7 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="follow-up in 30 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="No Acute Malnutrition">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="WFH/L 2 z-scores or more">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="MUAC 125 mm or more">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="if child is less than 2 years old assess the childs feeding and counsel the mother on feeding according to the feeding recommendations">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Severe Anemia">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="severe palmar pallor">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Anemia">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="some palmar pallor">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="give iron">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give mebendazole if child is 1 year or older and has not had a dose in the previous 6 months">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="follow-up in 14 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="No Anemia">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="no palmar pallor">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="if feeding problem follow-up in 5 days">
+      <data key="d0">FollowUp</data>
+    </node>
+    <node id="positive virological test in child">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="positive serological test in child 18 months or older">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Initiate ART treatment and HIV care">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="give cotrimoxazole prophylaxis">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="assess the child's feeding and provide appropriate counselling to the mother">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="assess or refer for TB assessment and INH preventive therapy">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="Mother HIV-positive and negative virological test in a breastfeeding child or only stopped less than 6 weeks ago">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="Mother HIV-positive child not yet tested">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="positive serological test in a child less than 18 months old">
+      <data key="d0">Symptom</data>
+    </node>
+    <node id="start or continue ARV prophylaxis as recommended">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="do virological test to confirm HIV status">
+      <data key="d0">Treatment</data>
+    </node>
+    <node id="No HIV Infection">
+      <data key="d0">Condition</data>
+      <data key="d1">2-60</data>
+    </node>
+    <node id="nan">
+      <data key="d0">Condition</data>
+      <data key="d2">nan</data>
+    </node>
+    <edge source="Very Severe Disease" target="give first dose of intramuscular antibiotics" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="treat to prevent low blood sugar" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="treat to prevent low blood sugar" id="1">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="refer URGENTLY to hospital" id="1">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="advise mother how to keep the infant warm on the way to the hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Very Severe Disease" target="severe" id="1">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Very Severe Disease" target="give diazepam if convulsing now" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="quickly complete the assessment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="give any pre-referal treatment immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Disease" target="keep the child warm" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="not feeding well" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="convulsions" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fast breathing (60 breaths per minute or more)" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="severe chest indrawing" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever (37.5ï¿½C above)" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="low body temperature (less than 35.5ï¿½C)" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="movement only when stimulated or no movement at all" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="movement only when stimulated or no movement at all" target="Severe Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="movement only when stimulated or no movement at all" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Local Bacterial Infection" target="give an appropriate oral antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Local Bacterial Infection" target="teach the mother to treat local infections at home" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Local Bacterial Infection" target="advise mother to give home care for the young infant" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Local Bacterial Infection" target="follow-up in 2 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Local Bacterial Infection" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="umbilicus red" target="Local Bacterial Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="draining pus" target="Local Bacterial Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="skin pustules" target="Local Bacterial Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Disease or Local Infection Unlikely" target="advise mother to give home care" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Disease or Local Infection Unlikely" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="none of the signs of very severe disease or local bacterial infection" target="Severe Disease or Local Infection Unlikely" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Jaundice" target="Treat to prevent low blood sugar" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Jaundice" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Jaundice" target="advise mother how to keep the infant warm on the way to the hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Jaundice" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="any jaundice if age less than 24 hours" target="Severe Jaundice" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="yellow palms and soles" target="Severe Jaundice" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Jaundice" target="advise the mother to give home care for the young infant" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Jaundice" target="advise mother to return immediately if palms and soles appear yellow" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Jaundice" target="if the young infant is older than 14 days refer to hospital for assessment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Jaundice" target="follow-up in 1 day" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Jaundice" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="jaundice appearing after 24 hours of age" target="Jaundice" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="palms and soles not yellow" target="Jaundice" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Dehydration" target="If the infant has no other severe classification give fluid for severe dehydration (Plan C)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Dehydration" target="if infant also has another severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeeding" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Dehydration" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Severe Dehydration" target="severe" id="1">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Severe Dehydration" target="if child has no other severe classification give fluid for severe dehydration (Plan C)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Dehydration" target="if child has other severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeeding" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Dehydration" target="if child is 2 years or older and there is cholera in your area give antibiotic for cholera" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="sunken eyes" target="Severe Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="sunken eyes" target="Severe Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="sunken eyes" target="Some Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="sunken eyes" target="Some Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="sunken eyes" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="skin pinch goes back very slowly" target="Severe Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="skin pinch goes back very slowly" target="Severe Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="skin pinch goes back very slowly" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Severe Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Severe Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Some Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Some Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Severe Persistent Diarrhea" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Persistent Diarrhea" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Dysentery" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Some Dehydration" target="give fluid and breast milk for some dehydration (Plan B)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Some Dehydration" target="if infant also has another severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeeding" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Some Dehydration" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Some Dehydration" target="follow-up in 2 days if not improving" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Some Dehydration" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Some Dehydration" target="moderate" id="1">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Some Dehydration" target="give fluid, zinc supplements and food for some dehydration (Plan B)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Some Dehydration" target="if child also has severe classification refer URGENTLY to hospital with mother giving frequent sips of ORS on the way and advise the mother to continue breastfeedingy" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Some Dehydration" target="follow up in 5 days if not improving" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Some Dehydration" target="advise mother when to return immediatel" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="restless and irritable" target="Some Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="restless and irritable" target="Some Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="skin pinch goes back slowly" target="Some Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="skin pinch goes back slowly" target="Some Dehydration" id="1">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="give cotrimoxazole prophylaxis from age 4-6 weeks" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="give HIV ART and care" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="advise the mother on home care" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="advise the mother on home care" id="1">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="follow-up regularly as per national guidelines" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="follow-up regularly as per national guidelines" id="1">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="moderate" id="1">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="Initiate ART treatment and HIV care" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="give cotrimoxazole prophylaxis" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="assess the child's feeding and provide appropriate counselling to the mother" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Confirmed HIV Infection" target="assess or refer for TB assessment and INH preventive therapy" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="positive virological test" target="Confirmed HIV Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="HIV Exposed" target="give cotrimoxazole prophylaxis from age 4-6 weeks" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="start or continue PMTCT ARV prophylaxis as per national recommendations" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="do virological test at age 4-6 weeks or repeat 6 weeks after the child stops breastfeeding" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="advise the mother on home care" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="advise the mother on home care" id="1">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="follow-up regularly as per national guidelines" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="HIV Exposed" target="follow-up regularly as per national guidelines" id="1">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="HIV Exposed" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="HIV Exposed" target="moderate" id="1">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="HIV Exposed" target="give cotrimoxazole prophylaxis" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="start or continue ARV prophylaxis as recommended" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="do virological test to confirm HIV status" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Exposed" target="assess the child's feeding and provide appropriate counselling to the mother" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Mother HIV-positive" target="HIV Exposed" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="HIV Infection Unlikely" target="treat, counsel and follow-up existing infections" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="HIV Infection Unlikely" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Negative HIV test in mother or young infant" target="HIV Infection Unlikely" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Negative HIV test in mother or young infant" target="No HIV Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Feeding Problem" target="teach correct positioning and attachment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="teach the mother to express breast milk and feed by a cup" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="advise to increase frequency of feeding" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="advise the mother to breastfeed as often and as long as the infant wants day and night" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="counsel the mother about breastfeeding more" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="reducing other foods or drinks" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="refer for breastfeeding counselling and possible relactation" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="advise about correctly preparing breast-milk substitutes and using a cup" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="advise the mother how to feed and keep the low weight infant warm at home" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="if thrush teach the mother to treat thrush at home" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="advise mother to give home care for the young infant" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Feeding Problem" target="follow-up any feeding problem or thrush in 2 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Feeding Problem" target="follow-up low weight for age in 14 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Feeding Problem" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="not well attached to breast" target="Feeding Problem" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="not suckling effectively" target="Feeding Problem" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="less than 8 breastfeeds in 24 hours" target="Feeding Problem" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="low weight for age" target="Feeding Problem" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="thrush (ulcers or white patches in mouth)" target="Feeding Problem" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="not well attached or not suckling effectively" target="Feeding Problem" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="any severe danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)" target="Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="any severe danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)" target="Severe Pneumonia or Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Pneumonia or Very Severe Disease" target="give first dose of an appropriate antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Pneumonia or Very Severe Disease" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Pneumonia or Very Severe Disease" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="stridor in calm child" target="Severe Pneumonia or Very Severe Disease" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Pneumonia" target="give oral Amoxicillin for 5 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Pneumonia" target="if wheezing (or disappeared after rapidly acting bronchodilator) give an inhaled bronchodilator for 5 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Pneumonia" target="if chest indrawing in HIV exposed/infected child, give first dose of amoxicillin and refer" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Pneumonia" target="soothe the throat and relieve the cough with a safe remedy" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Pneumonia" target="" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Pneumonia" target="" id="1">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Pneumonia" target="follow-up in 3 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Pneumonia" target="advise mother when to return immediately" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Pneumonia" target="if coughing for more than 14 days or recurrent wheeze refer for possible TB or asthma assessment" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Pneumonia" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="chest indrawing" target="Pneumonia" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fast breathing (50 breaths per minute or more ages 2-12m and 40 breaths per minute or more ages 12 months to 5 years)" target="Pneumonia" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Cough or Cold" target="if wheezing (or disappeared after rapidly acting bronchodilator) give an inhaled bronchodilator for 5 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cough or Cold" target="soothe the throat and relieve the cough with a safe remedy" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cough or Cold" target="if coughing for more than 14 days or recurrent wheeze refer for possible TB or asthma assessment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cough or Cold" target="follow-up in 5 days if not improving" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Cough or Cold" target="advise mother when to return immediately" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Cough or Cold" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="cough" target="Cough or Cold" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="cough" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="cough" target="Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="no signs of pneumonia or very severe disease" target="Cough or Cold" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="lethargic or unconscious" target="Severe Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="lethargic or unconscious" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="not able to drink or drinking poorly" target="Severe Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="drinks eagerly and thirsty" target="Some Dehydration" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Persistent Diarrhea" target="treat dehydration before referral unless the child has another severe classification" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Persistent Diarrhea" target="refer to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Persistent Diarrhea" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="diarrhea for 14 days or more" target="Severe Persistent Diarrhea" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="diarrhea for 14 days or more" target="Persistent Diarrhea" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="dehydration present" target="Severe Persistent Diarrhea" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Persistent Diarrhea" target="advise the mother on feeding a child who has persistent diarrhea" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Persistent Diarrhea" target="give multivitamins and minerals (including zinc) for 14 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Persistent Diarrhea" target="follow-up in 5 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Persistent Diarrhea" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="no dehydration" target="Persistent Diarrhea" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Dysentery" target="give ciprofloxacin for 3 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Dysentery" target="follow-up in 3 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Dysentery" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="blood in the stool" target="Dysentery" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Mastoiditis" target="give first dose of an appropriate antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Mastoiditis" target="give first dose of paracetamol for pain" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Mastoiditis" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Mastoiditis" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="tender swelling behind the ear" target="Mastoiditis" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="ear pain" target="Mastoiditis" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="ear pain" target="Acute Ear Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="ear pain" target="Chronic Ear Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Acute Ear Infection" target="give an antibiotic for 5 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Acute Ear Infection" target="give paracetamol for pain" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Acute Ear Infection" target="dry the ear by wicking" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Acute Ear Infection" target="follow-up in 5 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Acute Ear Infection" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="pus is seen draining from the ear" target="Acute Ear Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="pus is seen draining from the ear" target="Chronic Ear Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="ear discharge is reported for less than 14 days" target="Acute Ear Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Chronic Ear Infection" target="dry the ear by wicking" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Chronic Ear Infection" target="treat with topical quinolone eardrops for 14 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Chronic Ear Infection" target="follow-up in 5 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Chronic Ear Infection" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="ear discharge is reported for 14 days or more" target="Chronic Ear Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with Malaria Risk" target="give first dose of artesunate or quinine for severe malaria" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with Malaria Risk" target="give first dose of an appropriate antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with Malaria Risk" target="treat to prevent low blood sugar" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with Malaria Risk" target="give one dose of paracetamol in clinic for high fever (38.5 C or above)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with Malaria Risk" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with Malaria Risk" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="any general danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)" target="Very Severe Febrile Disease with Malaria Risk" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="any general danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)" target="Very Severe Febrile Disease with no Malaria Risk" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="any general danger sign (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="stiff neck" target="Very Severe Febrile Disease with Malaria Risk" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="stiff neck" target="Very Severe Febrile Disease with no Malaria Risk" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Very Severe Febrile Disease with Malaria Risk" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Malaria" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Fever: No Malaria" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Very Severe Febrile Disease with no Malaria Risk" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Fever" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Measles with Eye or Mouth Complications" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="fever" target="Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Malaria" target="give recommended first line oral antimalarial" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Malaria" target="give one dose of paracetamol in clinic for high fever (38.5 C or above)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Malaria" target="give appropriate antibiotic treatment for an identified bacterial cause of fever" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Malaria" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Malaria" target="follow-up in 3 days if fever persists" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Malaria" target="if fever is present every day for more than 7 days refer for assessment" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Malaria" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Malaria test positive" target="Malaria" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Fever: No Malaria" target="give one dose of paracetamol in clinic for high fever (38.5 C or above)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Fever: No Malaria" target="give appropriate antibiotic treatment for an identified bacterial cause of fever" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Fever: No Malaria" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Fever: No Malaria" target="follow-up in 3 days if fever persists" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Fever: No Malaria" target="if fever is present every day for more than 7 days refer for assessment" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Fever: No Malaria" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Malaria test negative" target="Fever: No Malaria" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with no Malaria Risk" target="give first dose of an appropriate antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with no Malaria Risk" target="treat child to prevent low blood sugar" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with no Malaria Risk" target="give one dose of paracetamol in clinic for high fever (38.5 C or above)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with no Malaria Risk" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Very Severe Febrile Disease with no Malaria Risk" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Fever" target="Give one dose of paracetamol in clinic for high fever (38.5 C or above)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Fever" target="give appropriate antibiotic treatment for any identified bacterial cause of fever" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Fever" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Fever" target="follow-up in 2 days if fever persists" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Fever" target="if fever is present every day for more than 7 days refer for assessment" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Fever" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="no general danger signs (not able to drink or breastfeed, vomits everything,convulsions,lethargic or unconscious)" target="Fever" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="no stiff neck" target="Fever" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Complicated Measles" target="give Vitamin A treatment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Complicated Measles" target="give first dose of an appropriate antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Complicated Measles" target="apply tetracycline eye ointment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Complicated Measles" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Complicated Measles" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="clouding of cornea" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="deep or extensive mouth ulcers" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="generalized rash" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="generalized rash" target="Measles with Eye or Mouth Complications" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="generalized rash" target="Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="runny nose" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="runny nose" target="Measles with Eye or Mouth Complications" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="runny nose" target="Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="red eyes" target="Severe Complicated Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="red eyes" target="Measles with Eye or Mouth Complications" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="red eyes" target="Measles" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Measles with Eye or Mouth Complications" target="give Vitamin A treatment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Measles with Eye or Mouth Complications" target="apply tetracycline eye ointment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Measles with Eye or Mouth Complications" target="if mouth ulcers treat with gentian violet" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Measles with Eye or Mouth Complications" target="follow-up in 3 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Measles with Eye or Mouth Complications" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="pus draining from the eye" target="Measles with Eye or Mouth Complications" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="mouth ulcers" target="Measles with Eye or Mouth Complications" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Measles" target="give Vitamin A treatment" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Measles" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="Cholera" target="give fluid for severe dehydration (Plan C)" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cholera" target="refer URGENTLY to hospital with mother giving frequent sips of ORS on the way" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cholera" target="advise the mother to continue breastfeeding" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cholera" target="give antibiotic for Cholera" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Cholera" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="not able to drink" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="drinking poorly" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Cholera in area" target="Cholera" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Complicated Nutritional Status and Severe Acute Malnutrition" target="give first dose appropriate antibiotic" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Complicated Nutritional Status and Severe Acute Malnutrition" target="treat to prevent low blood sugar" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Complicated Nutritional Status and Severe Acute Malnutrition" target="keep the child warm" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Complicated Nutritional Status and Severe Acute Malnutrition" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Complicated Nutritional Status and Severe Acute Malnutrition" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="oedema of both feet" target="Complicated Nutritional Status and Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="WFH/L less than -3 z-scores" target="Complicated Nutritional Status and Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="WFH/L less than -3 z-scores" target="Uncomplicated Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="MUAC less than 115 mm" target="Complicated Nutritional Status and Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="MUAC less than 115 mm" target="Uncomplicated Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="medical complication present, not able to finish RUTF or breastfeeding problem" target="Complicated Nutritional Status and Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="give oral antibiotics for 5 days" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="give ready-to-use therapeutic food for a child aged 6 months or more" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="counsel the mother on how to feed the child" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="assess for possible TB infection" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="follow-up in 7 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Uncomplicated Severe Acute Malnutrition" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="able to finish RUTF" target="Uncomplicated Severe Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Moderate Acute Malnutrition" target="assess the child's feeding and counsel the mother on the feeding recommendations" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Moderate Acute Malnutrition" target="assess for possible TB infection" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Moderate Acute Malnutrition" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Moderate Acute Malnutrition" target="if feeding problem follow-up in 7 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Moderate Acute Malnutrition" target="follow-up in 30 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Moderate Acute Malnutrition" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="WFH/L between -3 and -2 z-scores" target="Moderate Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="MUAC 115-125 mm" target="Moderate Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="No Acute Malnutrition" target="if child is less than 2 years old assess the childs feeding and counsel the mother on feeding according to the feeding recommendations" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="No Acute Malnutrition" target="if feeding problem follow-up in 7 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="No Acute Malnutrition" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="WFH/L 2 z-scores or more" target="No Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="MUAC 125 mm or more" target="No Acute Malnutrition" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Severe Anemia" target="refer URGENTLY to hospital" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Severe Anemia" target="severe" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="severe palmar pallor" target="Severe Anemia" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Anemia" target="give iron" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Anemia" target="give mebendazole if child is 1 year or older and has not had a dose in the previous 6 months" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Anemia" target="advise mother when to return immediately" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="Anemia" target="follow-up in 14 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="Anemia" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="some palmar pallor" target="Anemia" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="No Anemia" target="if child is less than 2 years old assess the childs feeding and counsel the mother on feeding according to the feeding recommendations" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="No Anemia" target="if feeding problem follow-up in 5 days" id="0">
+      <data key="d3">FOLLOW</data>
+    </edge>
+    <edge source="No Anemia" target="moderate" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+    <edge source="no palmar pallor" target="No Anemia" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="positive virological test in child" target="Confirmed HIV Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="positive serological test in child 18 months or older" target="Confirmed HIV Infection" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Mother HIV-positive and negative virological test in a breastfeeding child or only stopped less than 6 weeks ago" target="HIV Exposed" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="Mother HIV-positive child not yet tested" target="HIV Exposed" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="positive serological test in a child less than 18 months old" target="HIV Exposed" id="0">
+      <data key="d3">INDICATES</data>
+    </edge>
+    <edge source="No HIV Infection" target="treat, counsel and follow-up existing infections" id="0">
+      <data key="d3">TREAT</data>
+    </edge>
+    <edge source="No HIV Infection" target="mild" id="0">
+      <data key="d3">TRIAGE</data>
+    </edge>
+  </graph>
+</graphml>

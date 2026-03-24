@@ -40,10 +40,9 @@ MODELS = [
     ModelConfig("gpt-oss-20b", "ollama", "gpt-oss:20b"),
     # Local Models (via Ollama through AI Suite)
     ModelConfig("medgemma-4b", "ollama", "alibayram/medgemma:4b"),
-    ModelConfig("olmo2-7b", "ollama", "olmo2:7b"),
-    ModelConfig("qwen3-1.7b", "ollama", "qwen3:1.7b"),
-    ModelConfig("llama3.1-8b", "ollama", "llama3.1:8b"),
-    ModelConfig("phi3-3.8b", "ollama", "phi3:3.8b"),
+    # Reasoning models
+    ModelConfig("claude-sonnet-4-6", "anthropic", "claude-sonnet-4-6"),
+    ModelConfig("gpt-5.2", "openai", "gpt-5.2"),
 ]
 
 class AISuiteInference:
@@ -108,14 +107,22 @@ class AISuiteInference:
                 
                 # Handle different parameters for different models
                 if provider == "openai" and model_id.startswith("o"):
-                    # o4-mini reasoning models don't support temperature parameter
+                    # o-series reasoning models don't support temperature or max_tokens
                     response = self.client.chat.completions.create(
                         model=model_name,
                         messages=messages,
                         timeout=timeout
                     )
+                elif provider == "openai":
+                    # Newer OpenAI models use max_completion_tokens instead of max_tokens
+                    response = self.client.chat.completions.create(
+                        model=model_name,
+                        messages=messages,
+                        max_completion_tokens=max_tokens,
+                        temperature=temperature,
+                        timeout=timeout
+                    )
                 else:
-                    # All other models support temperature parameter
                     response = self.client.chat.completions.create(
                         model=model_name,
                         messages=messages,

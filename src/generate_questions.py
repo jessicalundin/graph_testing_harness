@@ -3,7 +3,12 @@ import random
 import json
 import os
 from pathlib import Path
-from generate_graph import load_and_build_graph, create_node_type_map
+def create_node_type_map(graph):
+    node_type_map = {}
+    for n, d in graph.nodes(data=True):
+        t = d['type']
+        node_type_map.setdefault(t, []).append(n)
+    return node_type_map
 
 # Paths - Mac-compatible using pathlib
 SCRIPT_DIR = Path(__file__).parent.absolute()
@@ -183,7 +188,7 @@ SEVERITY_TEMPLATES = [
     "The severity level of {cond} in a {specific_age} old child is typically:"
 ]
 
-def create_question(qid, question_text, answer, label, options, template_id=None):
+def create_question(qid, question_text, answer, label, options, template_id=None, graph_trace=None):
     """Create a standardized question dictionary."""
     # Ensure options are unique while preserving order
     seen = set()
@@ -192,19 +197,19 @@ def create_question(qid, question_text, answer, label, options, template_id=None
         if opt not in seen:
             seen.add(opt)
             unique_options.append(opt)
-    
+
     # If we have duplicates, log a warning
     if len(unique_options) < len(options):
         print(f"Warning: Duplicate options found in question {qid}, removed {len(options) - len(unique_options)} duplicates")
-    
+
     # Ensure we have at least 2 options (answer + at least one distractor)
     if len(unique_options) < 2:
         print(f"Error: Question {qid} has insufficient unique options: {unique_options}")
         return None
-    
+
     letter_map = {0: 'A', 1: 'B', 2: 'C', 3: 'D'}
     correct_letter = letter_map[unique_options.index(answer)]
-    
+
     question_dict = {
         'id': qid,
         'question': question_text,
@@ -213,11 +218,15 @@ def create_question(qid, question_text, answer, label, options, template_id=None
         'options': {letter_map[i]: opt for i, opt in enumerate(unique_options)},
         'correct_answer': correct_letter
     }
-    
+
     # Add template ID if provided
     if template_id is not None:
         question_dict['template_id'] = template_id
-    
+
+    # Add graph trace if provided
+    if graph_trace is not None:
+        question_dict['graph_trace'] = graph_trace
+
     return question_dict
 
 def generate_symptom_questions(cond, symptoms, age_range, node_type_map, graph):
@@ -250,46 +259,52 @@ def generate_symptom_questions(cond, symptoms, age_range, node_type_map, graph):
             cond=cond, specific_age=specific_age
         )
         
+        symp_trace = {
+            'nodes': [{'id': symp, 'type': 'Symptom'}, {'id': cond, 'type': 'Condition'}],
+            'edges': [{'from': symp, 'to': cond, 'type': 'INDICATES'}]
+        }
         question1 = create_question(
             qid=len(questions) + 1,
             question_text=question_text,
             answer=formatted_symptom,
             label='cond_symp',
             options=options,
-            template_id=f'cond_symp_t{template_idx + 1}'
+            template_id=f'cond_symp_t{template_idx + 1}',
+            graph_trace=symp_trace
         )
         if question1:
             questions.append(question1)
-        
+
         # Generate another random age for the second question
         specific_age2 = get_random_age_from_range(age_range)
-        
+
         # Question 2: A child has symptom X. What is the condition? (symp → cond)
         # Use age-appropriate condition distractors
         cond_distractors = get_age_appropriate_distractors(cond, 'Condition', age_range, graph, node_type_map)
         cond_options = cond_distractors + [cond]
         random.shuffle(cond_options)
-        
+
         # Format age-specific symptom for the question text
         age_months2 = convert_age_to_months(specific_age2)
         formatted_symptom2 = format_age_specific_symptom(symp, age_months2)
-        
+
         if len(cond_options) < 4:
             print(f"Warning: Condition question for symptom {symp} only has {len(cond_options)} options instead of 4")
-        
+
         # Randomly select template
         template_idx2 = random.randint(0, len(SYMPTOM_CONDITION_TEMPLATES) - 1)
         question_text2 = SYMPTOM_CONDITION_TEMPLATES[template_idx2].format(
             specific_age=specific_age2, formatted_symptom=formatted_symptom2
         )
-        
+
         question2 = create_question(
             qid=len(questions) + 1,
             question_text=question_text2,
             answer=cond,
             label='symp_cond',
             options=cond_options,
-            template_id=f'symp_cond_t{template_idx2 + 1}'
+            template_id=f'symp_cond_t{template_idx2 + 1}',
+            graph_trace=symp_trace
         )
         if question2:
             questions.append(question2)
@@ -319,13 +334,18 @@ def generate_treatment_questions(cond, treatments, node_type_map, age_range, gra
             specific_age=specific_age, cond=cond
         )
         
+        treat_trace = {
+            'nodes': [{'id': cond, 'type': 'Condition'}, {'id': treat, 'type': 'Treatment'}],
+            'edges': [{'from': cond, 'to': treat, 'type': 'TREAT'}]
+        }
         question = create_question(
             qid=len(questions) + 1,
             question_text=question_text,
             answer=treat,
             label='cond_treat',
             options=options,
-            template_id=f'cond_treat_t{template_idx + 1}'
+            template_id=f'cond_treat_t{template_idx + 1}',
+            graph_trace=treat_trace
         )
         if question:
             questions.append(question)
@@ -355,13 +375,18 @@ def generate_followup_questions(cond, followups, node_type_map, age_range, graph
             specific_age=specific_age, cond=cond
         )
         
+        follow_trace = {
+            'nodes': [{'id': cond, 'type': 'Condition'}, {'id': follow, 'type': 'FollowUp'}],
+            'edges': [{'from': cond, 'to': follow, 'type': 'FOLLOW'}]
+        }
         question = create_question(
             qid=len(questions) + 1,
             question_text=question_text,
             answer=follow,
             label='cond_followup',
             options=options,
-            template_id=f'cond_followup_t{template_idx + 1}'
+            template_id=f'cond_followup_t{template_idx + 1}',
+            graph_trace=follow_trace
         )
         if question:
             questions.append(question)
@@ -394,13 +419,18 @@ def generate_severity_questions(cond, severities, node_type_map, age_range):
             cond=cond, specific_age=specific_age
         )
         
+        sev_trace = {
+            'nodes': [{'id': cond, 'type': 'Condition'}, {'id': sev, 'type': 'Severity'}],
+            'edges': [{'from': cond, 'to': sev, 'type': 'TRIAGE'}]
+        }
         question = create_question(
             qid=len(questions) + 1,
             question_text=question_text,
             answer=sev,
             label='cond_severity',
             options=options,
-            template_id=f'cond_severity_t{template_idx + 1}'
+            template_id=f'cond_severity_t{template_idx + 1}',
+            graph_trace=sev_trace
         )
         if question:
             questions.append(question)
