@@ -1,6 +1,6 @@
 # From Guidelines to Guarantees: A Graph-Based Evaluation Harness for Domain-Specific LLMs
 
-This repository contains code accompanying the paper: **"From Guidelines to Guarantees: A Graph-Based Evaluation Harness for Domain-Specific LLMs"** on [arXiv](https://arxiv.org/abs/2508.20810).
+This repository contains code accompanying the paper: **"From Guidelines to Guarantees: A Graph-Based Evaluation Harness for Domain-Specific LLMs"** on [arXiv](https://arxiv.org/abs/2508.20810), from ACL 2026 Workshop on Evaluating Evaluations (EvalEval).
 
 We present a graph-based evaluation harness that transforms structured clinical guidelines into a queryable knowledge graph and dynamically instantiates evaluation queries via graph traversal. The framework provides three guarantees: **(1)** complete coverage of guideline relationships; **(2)** surface-form contamination resistance through combinatorial variation; and **(3)** validity inherited from expert-authored graph structure.
 
